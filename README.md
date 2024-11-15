@@ -15,6 +15,18 @@ start-ssh-agent -s
 #adicionar chave ao agent
 ssh-add c:/Users/YOU/.ssh/id_ed25519
 
+#start-ssh-agent.cmd
+Get-Service ssh-agent | Set-Service -StartupType Automatic -PassThru | Start-Service
+start-ssh-agent.cmd
+ssh -i C:\Users\chastie/.ssh\id_ed25519_git_demo -T git@gitlab.mycompany.com
+
+or
+
+ssh -i C:\Users\chastie/.ssh\id_ed25519_git_demo -T git@github.com
+
+#**ssh -i C:\Users\edi/.ssh/id_ed25519/aulas2 -T git@github.com
+
+
 
 
 

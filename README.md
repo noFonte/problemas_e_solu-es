@@ -1,3 +1,5 @@
+
+
 # problemas_e_solu-es
 programa para registrar essa  experiência. Ele armazena textos descritivos a respeito do problema e  respectiva solução, permitindo pesquisa por palavra chave.
 
@@ -29,6 +31,13 @@ C:\Users\edi/.ssh/id_ed25519.pub
 
 
 #**ssh -i C:\Users\edi/.ssh/id_ed25519/aulas2 -T git@github.com
+
+
+#Configuracao
+  git config --global user.email "deolhonofonte@gmail.com"
+  git config --global user.name "Your Name"
+
+ git push --set-upstream origin master
 
 
 

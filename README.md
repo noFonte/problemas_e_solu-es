@@ -24,6 +24,10 @@ or
 
 ssh -i C:\Users\chastie/.ssh\id_ed25519_git_demo -T git@github.com
 
+
+C:\Users\edi/.ssh/id_ed25519.pub
+
+
 #**ssh -i C:\Users\edi/.ssh/id_ed25519/aulas2 -T git@github.com
 
 

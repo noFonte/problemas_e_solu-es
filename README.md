@@ -6,3 +6,12 @@ programa para registrar essa  experiência. Ele armazena textos descritivos a re
     - https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
     ssh-keygen -t ed25519 -C "your_email@example.com"
+
+# start the ssh-agent in the background
+start-ssh-agent -s
+
+
+#adicionar chave ao agent
+ssh-add c:/Users/YOU/.ssh/id_ed25519
+
+

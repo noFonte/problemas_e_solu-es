@@ -4,6 +4,7 @@ programa para registrar essa  experiência. Ele armazena textos descritivos a re
 
 # Como conectar o Windows com github
     - https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+    - https://ryan.dev.br/2023-04-17-github-ssh-pt-br/
 
     ssh-keygen -t ed25519 -C "your_email@example.com"
 
@@ -13,5 +14,7 @@ start-ssh-agent -s
 
 #adicionar chave ao agent
 ssh-add c:/Users/YOU/.ssh/id_ed25519
+
+
 
 

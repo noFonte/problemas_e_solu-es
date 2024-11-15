@@ -3,4 +3,4 @@ programa para registrar essa  experiência. Ele armazena textos descritivos a re
 
 
 # Como conectar o Windows com github
-https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+    - https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent

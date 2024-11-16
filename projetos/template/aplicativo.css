@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Gujarati:wght@100..900&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000a2;
+    font-family: "Noto Serif Gujarati", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.bdr-10{
+    border-radius: 10px;
+}
+
+.wrapper {
+    background-color: rgb(230, 230, 228);
+    height: 100%;
+    width: 100%;
+    overflow-y: auto !important;
+    background-image: url('assets/pexels-shkrabaanthony-8192015.jpg');
+    background-size: cover;
+    background-position: -1px 45px center;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+
+}
+
+.wrapper-full {
+    height: 100% !important;
+}
+
+.wrapper-main {
+    position: relative;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.wrapper-footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 90%);
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.wrapper-footer div h5 {
+    display: inline-block;
+}
+
+.wrapper-footer span {
+    position: absolute;
+    right: 1rem;
+    top: 50%
+}
+
+.text-color {
+    color: aliceblue !important;
+
+}
+
+.text-color h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 4em;
+    text-align: center;
+}
+
+.text-color h3 {
+    font-size: smaller;
+    font-weight: 300;
+    padding: 1em;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+form{
+    width: 100%;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.link-btn {
+    text-decoration: 0;
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+    cursor: pointer;
+    display: inline-block;
+    text-align: right;
+    background-color: rgb(12, 11, 10);
+    margin-bottom: 2rem;
+}
+
+.text-left{
+    text-align: left
+}
+
+.wrapper_main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper_main-input {
+    background-color: rgba(8, 8, 7, 0.5);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
+    width: 90%;
+    display: flex;
+}
+
+.btn {
+    position: relative;
+    height: 4rem;
+
+}
+.btn-ico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-ico svg{
+   fill: black;
+}
+.wrapper_main-input input[type="text"] {
+    background: none;
+    outline: none;
+    border: 0;
+    flex-grow: 2;
+    text-indent: .5rem;
+}
+
+.wrapper_main-input .btn {
+    background-color: rgba(240, 248, 255, 0.973);
+    flex-grow: 1;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper_main-input .btn button {
+
+    width: 100%;
+    height: 100%;
+    background: none;
+    outline: 0;
+    border: 0;
+
+}
+
+.result-item .item-avalicao {
+    position: relative;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.stars {
+    flex: 1;
+}
+.active{
+    fill: yellow;
+}
+.link-btn-ok {
+    background-color: rgb(49, 231, 79);
+    padding: .2rem;
+    flex: 1;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: 0;
+    color: #000;
+
+
+}
+
+
+.result-list{
+   height: max-content;
+   background-color: rgba(0, 0, 0, .8);
+   color: aliceblue;
+   margin-top: 1rem;
+   margin-bottom: 5rem;
+
+ }
+
+.result-item {
+    position: relative;
+    padding: 1rem;
+
+}
+
+.result-item .item-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.result-item .item-title .item-index {
+    margin: .5rem;
+}
+
+.result-item .item-title h2{
+    font-size: large;
+}
+.result-item .item-title .item-index div {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    border-radius:5px;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.result-item .item-solutions, .result-item .stars{
+    padding: .5rem;
+}
+.pd-1{
+    padding: 1rem !important;
+}
+.mgt-1{
+    margin-top: 1rem;
+}
+.mgb-1{
+    margin-bottom: 1rem;
+}
+.wrapper-main-full{
+    
+}
+.wrapper_main-textarea{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 1rem;
+    height: auto;
+}
+.wrapper_main-textarea{
+     
+}
+.wrapper_main-textarea label{
+
+}
+.wrapper_main-textarea textarea{
+    height: 10rem;
+    color: #000 !important;
+    outline: 0;
+    border: none;
+    padding: .5rem;
+    border-top-left-radius: 1px;
+
+}
+
+.c{
+     text-align: center;
+    overflow: hidden;
+    padding: 1rem;
+}
+.link-btn-ok-block{
+    width: 100%;
+    display: block;
+    background-color: rgb(49, 231, 79);
+    padding: .2rem;
+    flex: 1;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: 0;
+    color: #000;
+
+}

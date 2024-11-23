@@ -34,7 +34,7 @@ C:\Users\edi/.ssh/id_ed25519.pub
 
 
 #Configuracao
-  git config --global user.email "deolhonofonte@gmail.com"
+  git config --global user.email "xxxx@gmail.com"
   git config --global user.name "Your Name"
 
  git push --set-upstream origin master

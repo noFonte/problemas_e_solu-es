@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Root\\Html\\' => array($baseDir . '/src'),
+    'Solucoes\\' => array($baseDir . '/src'),
 );

@@ -7,14 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInitfd398a330ef9d243085e383d781ebe99
 {
     public static $prefixLengthsPsr4 = array (
-        'R' => 
+        'S' => 
         array (
-            'Root\\Html\\' => 10,
+            'Solucoes\\' => 9,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Root\\Html\\' => 
+        'Solucoes\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -22,6 +22,7 @@ class ComposerStaticInitfd398a330ef9d243085e383d781ebe99
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Solucoes\\Cors' => __DIR__ . '/../..' . '/src/Cors.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

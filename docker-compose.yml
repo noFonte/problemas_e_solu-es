@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/var/www/html  # Monta a pasta de código PHP
+    ports:
+      - "8087:80"            # Porta do Apache para acessar o PHP
+    networks:
+      - mynetwork
+    container_name: php01  # Nome personalizado do container
+
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: Dev1234@
+      MYSQL_DATABASE: projeto_one
+      MYSQL_USER: dev
+      MYSQL_PASSWORD: Dev1234@
+    ports:
+      - "3340:3306"          # Porta do MySQL para acesso
+    networks:
+      - mynetwork
+    container_name: mysql01  # Nome personalizado do container
+
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: dev
+      PMA_PASSWORD: Dev1234@
+    ports:
+      - "8780:80"            # Porta do phpMyAdmin para acesso
+    depends_on:
+      - mysql
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge

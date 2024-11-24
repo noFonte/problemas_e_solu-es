@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"6cffd7b9abaf2b03","type":"text","text":"public\nInput\n","x":-460,"y":-260,"width":140,"height":80},
+		{"id":"a9ccae464ec055f7","x":-460,"y":-130,"width":140,"height":100,"type":"text","text":"public OutPut JSOn"},
+		{"id":"7131582471835fac","type":"text","text":"criar novo solução","x":-210,"y":-340,"width":250,"height":60},
+		{"id":"82cc3de7e628c833","x":-210,"y":-240,"width":250,"height":60,"type":"text","text":"Pesquizar "},
+		{"id":"d665c747c3e0ac41","x":-210,"y":-160,"width":250,"height":60,"type":"text","text":"Avaliar"}
+	],
+	"edges":[
+		{"id":"97420941288330ec","fromNode":"6cffd7b9abaf2b03","fromSide":"right","toNode":"7131582471835fac","toSide":"left"},
+		{"id":"42e86e570f2129df","fromNode":"6cffd7b9abaf2b03","fromSide":"right","toNode":"82cc3de7e628c833","toSide":"left"},
+		{"id":"353b6600256e3234","fromNode":"6cffd7b9abaf2b03","fromSide":"right","toNode":"d665c747c3e0ac41","toSide":"left"},
+		{"id":"eddaf278c1459ea6","fromNode":"d665c747c3e0ac41","fromSide":"bottom","toNode":"a9ccae464ec055f7","toSide":"bottom"},
+		{"id":"e3ec0c4dd64f4671","fromNode":"82cc3de7e628c833","fromSide":"bottom","toNode":"a9ccae464ec055f7","toSide":"right"},
+		{"id":"b9653ba70b57711a","fromNode":"7131582471835fac","fromSide":"right","toNode":"a9ccae464ec055f7","toSide":"right"}
+	]
+}

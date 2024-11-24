@@ -1,0 +1,26 @@
+C:\Windows\System32\drivers\etc\hosts - modo administrador
+127.0.0.1 aprendentophp.com.dev
+
+header("HTTP/1.1 200 OK");
+However, this requires special treatment for (Fast)CGI PHP:
+
+$sapi_type = php_sapi_name();
+if (substr($sapi_type, 0, 3) == 'cgi')
+    header("Status: 404 Not Found");
+else
+    header("HTTP/1.1 404 Not Found");
+
+    
+
+<?php
+$data = /** whatever you're serializing **/;
+header('Content-Type: application/json; charset=utf-8');
+echo json_encode($data);
+
+
+
+docker exec -it php01 /bin/bash
+
+composer du -o  // Atualizar os pacotes do projeto.
+
+

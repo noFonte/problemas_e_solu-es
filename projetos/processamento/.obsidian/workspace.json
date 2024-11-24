@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "3eb35b5868b6bf3d",
+    "type": "split",
+    "children": [
+      {
+        "id": "61981ba7481c646c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a4c0f74da85c69d",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Processamento.canvas",
+                "viewState": {
+                  "x": -210,
+                  "y": -185,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Processamento"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3f606cbf0af13e0e",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7cfc34399f98e6b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "06862a3d262b961d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "a31d42995564c053",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "f3367b514255299c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "f08032c7f120a1ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "29938499a3701aa6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8bb2467dfc30c492",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Processamento.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para Processamento"
+            }
+          },
+          {
+            "id": "cafa346f91020bb3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Processamento.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para Processamento"
+            }
+          },
+          {
+            "id": "e240e0c4166a91f2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "152ab7c19f1563ca",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Processamento.canvas"
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Processamento"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "2a4c0f74da85c69d",
+  "lastOpenFiles": [
+    "Processamento.canvas",
+    "Processamento.md",
+    "Sem título.md",
+    "Welcome.md"
+  ]
+}
